@@ -1,0 +1,68 @@
+.navbar{
+  background-color: #fff !important;
+  padding: 15px 140px;
+
+  .navbar-brand{
+    margin-right: 70px;
+    img{
+      width: 112px;
+    }
+  }
+
+  .nav-item{
+    &:hover .dropdown-menu{
+      display: block;
+    }
+    a{
+      color: #000 !important;
+      font-weight: 400;
+      font-size: 14px;
+      margin: 0 10px;
+
+      &:after{
+        content: none;
+      }
+    }
+  }
+
+  ul{
+    list-style: none;
+    margin: 0px;
+  }
+
+  .form-inline{
+    position: relative;
+
+    input{
+      border-radius: 3px;
+      color: #000;
+      font-weight: 400;
+      font-size: 14px;
+      width: 200px;
+      padding: 18px 15px;
+      border-color: #e4e4e4;
+    }
+
+    i{
+      font-size: 22px;
+      position: absolute;
+      right: 18px;
+      color: #000;
+    }
+  }
+
+  #suitcase{
+    a{
+      font-size: 14px;
+      color: #000;
+
+      img{
+        width: 22px;
+      }
+
+      .currency_label{
+        vertical-align: sub;
+      }
+    }    
+  }
+}

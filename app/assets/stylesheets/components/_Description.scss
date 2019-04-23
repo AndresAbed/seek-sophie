@@ -1,0 +1,66 @@
+#description{
+  .title{
+    margin: 30px auto;
+    font-size: 50px;
+  }
+
+  #information{
+    justify-content: center;
+
+    .col{
+      text-align: center;
+      margin-top: 10px;
+      padding: 0;
+      position: relative;
+
+      i{
+        color: #087ffb;
+        font-size: 14px;
+        margin-right: 5px;
+        vertical-align: middle;
+
+        &.fa-question-circle{
+          position: absolute;
+          right: -10px;
+          top: 6px;
+          color: #c1c1c1;
+        }
+      }
+
+      span{
+        font-weight: 300;
+        font-size: 14px;
+        color: #000;
+      }
+    }
+  }
+
+  #summary{
+    p{
+      font-weight: 300;
+      color: #000;
+      text-align: center;
+      margin-top: 30px;
+      padding: 0 150px;
+      line-height: 30px;
+      font-size: 17px;      
+    }
+  }
+
+  #recommendations{
+    margin: 20px 0;
+    p{
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      font-size: 17px;
+      &:first-child{
+        font-weight: 700;
+      }
+
+      &:last-child{
+        font-weight: 300;
+      }
+    }
+  }
+}

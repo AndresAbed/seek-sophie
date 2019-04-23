@@ -1,0 +1,21 @@
+#contact_header{
+    background-color: black;
+    font-weight: 300;
+    letter-spacing: 0.4px;    
+    width: 100vw;
+    top: 0;
+    font-size: 13px;
+    z-index: 1000;
+    padding: 8px 0px;
+    text-align: center;
+    a{
+      color: #fff;
+      &:hover{
+        opacity: .7;
+        text-decoration: none;
+      }
+      span{
+        text-decoration: underline;
+      }
+    }
+}

@@ -1,0 +1,20 @@
+// Bootstrap
+@import "bootstrap";
+// Components
+@import "components/*";
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400, 700');
+@import 'ionicons';
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+body{
+  font-family: Lato, sans-serif;
+}
+
+#headers-wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
