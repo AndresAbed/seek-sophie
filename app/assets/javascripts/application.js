@@ -19,27 +19,3 @@
 //= require popper
 //= require bootstrap
 //= require_tree .
-
-
-$(document).ready( () => {
-/*  let collapseQuestionButtons = Array.prototype.slice.call(document.getElementsByClassName("questions-collapse-button"));
-  collapseQuestionButtons.forEach(button =>{    
-    $(button).on('click', function() {
-      let node = this.childNodes[0]
-      let closed = "ion-ios-plus-empty"
-      let opened = "ion-ios-minus-empty"
-      node.className === closed ? node.className = opened : node.className = closed;   
-    });
-  });
-
-  let collapsePackageButtons = Array.prototype.slice.call(document.getElementsByClassName("collapse-arrow-button"));
-  collapsePackageButtons.forEach(button =>{    
-    $(button).on('click', function() {
-      let node = this
-      let closed = "ion-ios-arrow-down collapse-arrow-button"
-      let opened = "ion-ios-arrow-up collapse-arrow-button"
-      node.className === closed ? node.className = opened : node.className = closed;   
-    });
-  });
-*/
-})
